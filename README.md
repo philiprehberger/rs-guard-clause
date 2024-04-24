@@ -1,5 +1,9 @@
 # rs-guard-clause
 
+[![CI](https://github.com/philiprehberger/rs-guard-clause/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/rs-guard-clause/actions/workflows/ci.yml)
+[![Crates.io](https://img.shields.io/crates/v/philiprehberger-guard-clause.svg)](https://crates.io/crates/philiprehberger-guard-clause)
+[![License](https://img.shields.io/github/license/philiprehberger/rs-guard-clause)](LICENSE)
+
 Early-return guard clause macros for cleaner control flow.
 
 ## Installation
