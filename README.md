@@ -10,7 +10,7 @@ Early-return guard clause macros for cleaner control flow.
 
 ```toml
 [dependencies]
-philiprehberger-guard-clause = "0.1"
+philiprehberger-guard-clause = "0.1.5"
 ```
 
 ## Usage
