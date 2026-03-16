@@ -10,7 +10,7 @@ Early-return guard clause macros for cleaner control flow.
 
 ```toml
 [dependencies]
-philiprehberger-guard-clause = "0.1.5"
+philiprehberger-guard-clause = "0.1.6"
 ```
 
 ## Usage
@@ -44,6 +44,14 @@ fn find_item(items: &[Option<&str>], index: usize) -> Option<String> {
 | `ensure!(cond, err)` | Return `Err(err)` if condition is false |
 | `reject!(cond, err)` | Return `Err(err)` if condition is true |
 | `unwrap_or_return!(expr, default)` | Unwrap `Option` or return default |
+
+
+## Development
+
+```bash
+cargo test
+cargo clippy -- -D warnings
+```
 
 ## License
 

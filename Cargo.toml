@@ -1,10 +1,13 @@
 [package]
 name = "philiprehberger-guard-clause"
-version = "0.1.5"
+version = "0.1.6"
 edition = "2021"
 authors = ["Philip Rehberger"]
 description = "Early-return guard clause macros for cleaner control flow"
 license = "MIT"
 repository = "https://github.com/philiprehberger/rs-guard-clause"
+readme = "README.md"
+rust-version = "1.70"
+documentation = "https://docs.rs/philiprehberger-guard-clause"
 keywords = ["guard", "macro", "early-return", "error-handling", "control-flow"]
 categories = ["rust-patterns", "no-std"]
