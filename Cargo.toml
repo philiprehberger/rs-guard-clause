@@ -1,6 +1,6 @@
 [package]
 name = "philiprehberger-guard-clause"
-version = "0.1.6"
+version = "0.1.7"
 edition = "2021"
 authors = ["Philip Rehberger"]
 description = "Early-return guard clause macros for cleaner control flow"
